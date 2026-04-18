@@ -4,7 +4,7 @@ class Journal:
 
 
 
-    def add_student(self, name, mark):
+    def add_student(self, name, mark: list):
         self._journal[name] = mark
 
 
